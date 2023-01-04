@@ -1,0 +1,33 @@
+.searchInputs {
+    display: flex;
+    margin-right: 15px;
+}  
+
+.searchInputs input {
+    border: 2px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 20px;
+    font-size: 15.5px;
+}
+
+.search {
+    border-radius: 7px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 400px; 
+} 
+
+.searchIcon {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 10;
+} 
+
+.searchIcon:hover {
+    cursor: pointer;
+}
+

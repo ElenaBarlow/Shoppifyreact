@@ -1,0 +1,488 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }  
+
+  .container > form {
+    padding: 0;
+    border: none;
+    height: 670px;
+  }
+
+  .shop {
+    width: 630px;
+    height: 100%;
+    border-radius: 5px; 
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+ 
+  } 
+
+
+   /* width: 700px;
+    height: 600px; */
+
+  form {
+   
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+ 
+
+  .logo {
+    margin-left: 9.6rem;
+    width: 250px;
+    margin-top: 10px;
+  }
+
+  h2 {
+    
+    letter-spacing: 4px;
+    margin-top: 1.5rem; 
+    color: black;
+    font-family: 'Carter One', cursive;
+    margin-left: 100px;
+  } 
+
+  .subhead {
+    color: black;
+    border-left: #fff solid 1px;
+    font-size: 22px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1.7rem;
+    font-family: 'Aclonica', sans-serif;
+
+  }
+
+  .name-email {
+    display: flex;
+  } 
+
+  .password-confirmpwd {
+    display: flex; 
+    align-items: center; 
+    
+    
+    width: 100%;
+    justify-content: space-between;
+  } 
+
+  #confirmnote {
+   position: absolute;
+  }
+
+  .field {
+    display: block; 
+    text-align: center;
+   position: relative;
+    margin-top: 20px;
+    width: 270px; 
+    
+  } 
+
+  .field > label {
+    
+    font-size: 35px;
+    font-family: 'Dongle', sans-serif;
+    color: black;
+    margin-right: 5px;
+  } 
+
+  .field > input {
+    align-items: center;
+    font-size: 18px; 
+    width: 140px;
+  }
+  
+  .btn {
+    margin-top: 3rem; 
+    background-color: rgb(9, 160, 253);
+    font-size: 20px;
+  } 
+  
+  
+
+
+  .hide {
+    display: none;
+} 
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+} 
+
+.instructions {
+    font-size: 0.70rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.20rem;
+    position: relative;
+    width: 40%;
+    margin-left: 7rem;
+} 
+
+
+
+.confirm {
+    margin-bottom: 60px;
+    position: relative;
+    
+}
+
+input + span {
+    display: flex;
+} 
+
+
+button {
+    margin-top: -15px;
+    margin-left: 11rem;
+    padding: 10px 100px; 
+    
+  } 
+
+
+  .form-info {
+    margin-right: 2.7rem; 
+  } 
+
+
+.usernamefield .valid {
+    color: limegreen;
+   
+}
+
+.usernamefield .invalid {
+    color: red;
+    
+} 
+
+.eemail .valid {
+    color: limegreen;
+   
+}
+
+.eemail .invalid {
+    color: red;
+    
+} 
+
+.password .valid {
+    color: limegreen;
+   
+}
+
+.password .invalid {
+    color: red;
+    
+} 
+
+.confirm .valid {
+    color: limegreen;
+   
+}
+
+.confirm .invalid {
+    color: red;
+    
+} 
+
+.zip .invalid {
+    color: red;
+    
+}
+
+.password {
+    position: relative;
+    margin-bottom: 10px;
+} 
+
+.password > #pwdnote {
+    position: absolute;
+    bottom: -20px;
+} 
+
+.info-text {
+    position: absolute; 
+    margin-left: 85px; 
+    padding: 3px; 
+    font-size: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px; 
+    white-space: nowrap;
+} 
+
+.info-text2 {
+    padding: 1px; 
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px; 
+    font-size: 10px;
+    width: 136px;
+    height: 58px; 
+    white-space: nowrap;
+    margin-bottom: -18px;
+    margin-left: 123px;
+    margin-top: -12px;
+} 
+
+
+.info-text3 { 
+    margin-left: 100px; 
+    padding: 2px; 
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px; 
+    font-size: 10px;
+    width: 137px;
+    height: 47px;
+    white-space: nowrap; 
+    margin-top: -12px;
+    margin-bottom: 15px;
+} 
+
+.info-text4 {
+    position: absolute; 
+    margin-left: 80px; 
+    padding: 2px; 
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px; 
+    font-size: 10px;
+    width: 210px; 
+    top: -24px;
+    white-space: nowrap;
+    
+}
+
+.info-text5 {
+    position: absolute; 
+    margin-left: 132px; 
+    bottom: -8px;
+    padding: 3px; 
+    font-size: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px; 
+    white-space: nowrap;
+} 
+
+
+.usernamefield {
+    position: relative;
+} 
+
+.usernamefield > span {
+    position: absolute;
+    top: 15px; 
+    display: flex;
+    left: 263px; 
+    margin-left: 2px;
+    color: #fff;
+} 
+
+.eemail > span {
+    position: absolute;
+    top: 15px; 
+    display: flex;
+    left: 243px; 
+    color: #fff;
+} 
+
+.password > span {
+    position: absolute;
+    top: 15px; 
+    display: flex;
+    left: 263px; 
+    color: #000;
+} 
+
+.confirm > span {
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    left: 210px; 
+    color: black;
+} 
+
+.zip > span {
+    position: absolute;
+    bottom: 17px;
+    display: flex;
+    left: 250px; 
+    color: black; 
+}
+
+
+
+.eemail {
+    position: relative;
+    margin-bottom: 8px;
+} 
+
+.passsword {
+    position: relative;
+}  
+
+span.hide {
+    display: none;
+} 
+
+.field.phone {
+  display: flex; 
+  white-space: nowrap;
+  padding-left: 6px;
+  width: 50%; 
+  margin-top: -31px;
+  margin-bottom: -10px;
+} 
+
+.login {
+    position: absolute;
+    bottom: 90px;
+    right: 560px;
+}  
+
+.city > label {
+    margin-left: -60px;
+}  
+
+.city-zip {
+    display: flex;
+    margin-bottom: -45px;
+} 
+
+.zip {
+    margin-left: 11px;
+    position: relative;
+} 
+
+.zip > input {
+    width: 115px;
+} 
+
+.gender {
+    margin-left: -10px;
+}
+
+.gender > select {
+    height: 27px;
+    width: 150px;
+}
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+/* section {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+button {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+} */
